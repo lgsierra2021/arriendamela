@@ -1,0 +1,8 @@
+{
+  "name": "arriendamela",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "a17670b0"
+}
