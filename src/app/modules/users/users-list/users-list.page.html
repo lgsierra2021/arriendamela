@@ -1,0 +1,11 @@
+<ion-content [fullscreen]="true">
+<h1>Lista de usuarios</h1>
+<ion-searchbar [debounce]="1000" (ionInput)="handleInput($event)"></ion-searchbar>
+<ion-list>
+    @for(user of usersFiltered; track user.name){
+        <ion-item>
+            <ion-label>{{user.name}}</ion-label>
+        </ion-item>   
+    }
+  </ion-list>
+</ion-content>
