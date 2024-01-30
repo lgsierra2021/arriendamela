@@ -1,0 +1,4 @@
+.scroll-container {
+    max-height: 100%; /* O cualquier altura máxima deseada */
+    overflow-y: auto; /* Agrega el desplazamiento vertical si el contenido es más largo que la altura máxima */
+  }

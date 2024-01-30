@@ -1,0 +1,124 @@
+{
+    "data": [
+        {
+            "category":"Apartamento",
+            "image": "img-1",
+            "price": "$450.000",
+            "area": "150m²",
+            "numBathrooms":"2",
+            "numRooms":"2",
+            "address": "Caucasia-Antioquia",
+            "description": "Descrpción general"
+        },
+        {
+            "category":"Casa",
+            "image": "img-2",
+            "price": "$950.000",
+            "area": "260m²",
+            "numBathrooms":"3",
+            "numRooms":"5",
+            "address": "Caucasia-Antioquia",
+            "description": "Descrpción general"
+        },
+        {
+            "category":"Apartamento",
+            "image": "img-3",
+            "price": "$650.000",
+            "area": "180m²",
+            "numBathrooms":"2",
+            "numRooms":"2",
+            "address": "Caucasia-Antioquia",
+            "description": "Descrpción general"
+        },
+        {
+            "category":"Apartamento",
+            "image": "img-4",
+            "price": "$350.000",
+            "area": "130m²",
+            "numBathrooms":"2",
+            "numRooms":"2",
+            "address": "Caucasia-Antioquia",
+            "description": "Descrpción general"
+        },
+        {
+            "category":"Apartamento",
+            "image": "img-5",
+            "price": "$850.000",
+            "area": "200m²",
+            "numBathrooms":"2",
+            "numRooms":"3",
+            "address": "Caucasia-Antioquia",
+            "description": "Descrpción general"
+        },
+        {
+            "category":"Casa",
+            "image": "img-6",
+            "price": "$1'150.000",
+            "area": "200m²",
+            "numBathrooms":"2",
+            "numRooms":"2",
+            "address": "Caucasia-Antioquia",
+            "description": "Descrpción general"
+        },
+        {
+            "category":"Casa Finca",
+            "image": "img-7",
+            "price": "$1'400.000",
+            "area": "550m²",
+            "numBathrooms":"3",
+            "numRooms":"5",
+            "address": "Caucasia-Antioquia",
+            "description": "Descrpción general"
+        },
+        {
+            "category":"Apartamento",
+            "image": "img-8",
+            "price": "$480.000",
+            "area": "140m²",
+            "numBathrooms":"2",
+            "numRooms":"2",
+            "address": "Caucasia-Antioquia",
+            "description": "Descrpción general"
+        },
+        {
+            "category":"Apartamento",
+            "image": "img-9",
+            "price": "$540.000",
+            "area": "190m²",
+            "numBathrooms":"2",
+            "numRooms":"3",
+            "address": "Caucasia-Antioquia",
+            "description": "Descrpción general"
+        },
+        {
+            "category":"Apartamento",
+            "image": "img-10",
+            "price": "$630.000",
+            "area": "180m²",
+            "numBathrooms":"2",
+            "numRooms":"2",
+            "address": "Caucasia-Antioquia",
+            "description": "Descrpción general"
+        },
+        {
+            "category":"Apartamento",
+            "image": "img-11",
+            "price": "$540.000",
+            "area": "180m²",
+            "numBathrooms":"2",
+            "numRooms":"3",
+            "address": "Caucasia-Antioquia",
+            "description": "Descrpción general"
+        },
+        {
+            "category":"Casa Lago",
+            "image": "img-12",
+            "price": "$940.000",
+            "area": "280m²",
+            "numBathrooms":"3",
+            "numRooms":"4",
+            "address": "Caucasia-Antioquia",
+            "description": "Descrpción general"
+        }
+    ]
+}
