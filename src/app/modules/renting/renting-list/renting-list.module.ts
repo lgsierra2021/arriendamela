@@ -5,6 +5,7 @@ import { IonicModule } from '@ionic/angular';
 import { RentingListPageRoutingModule } from './renting-list-routing.module';
 import { RentingListPage } from './renting-list.page';
 import { HttpClientModule } from '@angular/common/http';
+import { SharedModule } from '../../shared/shared.module';
 
 @NgModule({
   imports: [
@@ -12,7 +13,8 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,
     IonicModule,
     RentingListPageRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    SharedModule
   ],
   declarations: [RentingListPage]
 })

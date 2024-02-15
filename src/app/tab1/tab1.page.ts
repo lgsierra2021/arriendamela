@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-tab1',
@@ -6,7 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
+  //Variables o constantes - atributos
+  
+  constructor(private router: Router) {
 
-  constructor() {}
-
+  }
+  // metodos
+  createRenting() {
+    this.router.navigate(['renting-form'])
+  }
 }

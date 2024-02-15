@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Nuevo arriendo</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Crear arriendo</ion-card-title>
+      <ion-card-subtitle>Formulario</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      <form [formGroup]="rentingForm">
+        <ion-item>
+          <ion-label position="floating">Categoría</ion-label>
+          <ion-input formControlName="category" fill="solid" placeholder="Casa, Apartamento..."></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Precio</ion-label>
+          <ion-input formControlName="price" fill="solid" placeholder="$"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Área</ion-label>
+          <ion-input formControlName="area" fill="solid" placeholder="Area en m²"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Numero de baños</ion-label>
+          <ion-input formControlName="numBathRooms" fill="solid" placeholder="0"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Numero de habitaciones</ion-label>
+          <ion-input formControlName="numRooms" fill="solid" placeholder="0"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Dirreción</ion-label>
+          <ion-input formControlName="address" fill="solid" placeholder="Barrio, calle, carrera..."></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Descripción</ion-label>
+          <ion-input formControlName="description" fill="solid" placeholder="Breve descripción del lugar"></ion-input>
+        </ion-item>
+      </form>
+    </ion-card-content>
+
+    <ion-button id="present-alert" fill="clear">Cancelar</ion-button>
+    <ion-alert trigger="present-alert" header="¿Quieres salir?" [buttons]="alertButtons"
+      (didDismiss)="setResult()"></ion-alert>
+
+    <ion-button fill="clear" (click)="save()">Guardar</ion-button>
+  </ion-card>
+</ion-content>

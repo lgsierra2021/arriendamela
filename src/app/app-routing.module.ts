@@ -9,6 +9,10 @@ const routes: Routes = [
     path: 'renting-list',
     loadChildren: () => import('./modules/renting/renting-list/renting-list.module').then( m => m.RentingListPageModule)
   },
+  {
+    path: 'renting-form',
+    loadChildren: () => import('./modules/renting/renting-form/renting-form.module').then( m => m.RentingFormPageModule)
+  },
 
 ];
 @NgModule({
