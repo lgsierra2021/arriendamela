@@ -47,6 +47,7 @@
     <ion-button id="present-alert" fill="clear">Cancelar</ion-button>
     <ion-alert trigger="present-alert" header="¿Quieres salir?" [buttons]="alertButtons"
       (didDismiss)="setResult()"></ion-alert>
-    <ion-button fill="clear">Guardar</ion-button>
+
+    <ion-button fill="clear" (click)="save()">Guardar</ion-button>
   </ion-card>
 </ion-content>

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
 import { Router } from '@angular/router';
+import { StorageService } from '../../shared/storage.service';
 
 @Component({
   selector: 'app-renting-form',
@@ -28,7 +29,7 @@ export class RentingFormPage implements OnInit {
     },
   ];
 
-  constructor(public formB: FormBuilder, private router:Router) {
+  constructor(public formB: FormBuilder, private router:Router, private storageService:StorageService) {
     this.rentingForm = this.formB.group({
       'category': new FormControl('', Validators.required),
       'price': new FormControl('', Validators.required),
@@ -46,6 +47,12 @@ export class RentingFormPage implements OnInit {
 
   setResult() {
     console.log('Dismissed with role: ${ev.detail.role}');
+  }
+
+  save(){
+    const renting = this.rentingForm.value
+    console.log(renting);
+    this.storageService.save(StorageService.STORAGE_KEYS.RENTING, renting);
   }
   ngOnInit() {
 }
