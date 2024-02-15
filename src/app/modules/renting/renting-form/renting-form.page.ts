@@ -15,7 +15,6 @@ export class RentingFormPage implements OnInit {
       text: 'NO',
       role: 'cancel',
       handler:()=>{
-        console.log('No quiero salir');
       },
 
     },
@@ -46,12 +45,10 @@ export class RentingFormPage implements OnInit {
   }
 
   setResult() {
-    console.log('Dismissed with role: ${ev.detail.role}');
   }
 
   save(){
     const renting = this.rentingForm.value
-    console.log(renting);
     this.storageService.save(StorageService.STORAGE_KEYS.RENTING, renting);
   }
   ngOnInit() {
